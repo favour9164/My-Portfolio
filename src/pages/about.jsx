@@ -11,8 +11,9 @@ function About() {
     });
   }, []);
 
+
   return (
-    <div className='w-full h-auto bg-[#0c1e39] text-center flex flex-col items-center justify-center text-[#f5f5f5] gap-1 pb-12 '>
+    <div className='w-full h-auto pt-30 bg-[#0c1e39] text-center flex flex-col items-center justify-center text-[#f5f5f5] gap-1 pb-12 '>
       <div className='w-lvh' data-aos="fade-right">
         <section id='about'>
           <div>
@@ -21,7 +22,7 @@ function About() {
         </section>
       <div className="">
         <p className="text-justify w-full md:w-full lg:w-full px-3">
-          I'm a passionate developer with expertise in building modern web applications. With a strong foundation in both frontend and backend technologies, I create seamless user experiences backed by robust, scalable systems. I love tackling challenging problems and continuously learning new technologies to stay at the forefront of web development.
+          I'm a passionate developer with expertise in building modern web applications. With a strong foundation in frontend technologies, I create seamless user experiences backed by robust, scalable systems. I love tackling challenging problems and continuously learning new technologies to stay at the forefront of web development.
         </p>
     </div>
       </div>

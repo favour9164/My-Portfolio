@@ -13,9 +13,9 @@ function Projects() {
   }, []);
 
   return (
-    <div className='w-full h-auto bg-[#0c1e39] text-center flex flex-col items-center justify-center text-[#f5f5f5]  gap-10 pb-10 '>
+    <div className='w-full h-auto pt-30 bg-[#0c1e39] text-center flex flex-col items-center justify-center text-[#f5f5f5]  gap-10 pb-10 '>
 
-      <div data-aos="fade-down" data-aos-delay="300">
+      <div data-aos="fade-left" data-aos-delay="300">
         <section id='projects'>
       <div>
             <h2 className='text-3xl text-[#f5f5f5] pb-10 pt-36'>Projects</h2>

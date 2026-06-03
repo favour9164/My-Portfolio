@@ -13,7 +13,7 @@ function Touch() {
     });
   }, []);
   return (
-    <div className='w-full h-auto bg-[#112240] text-center flex flex-col items-center justify-center text-[#f5f5f5] pt-10 gap-1 pb-14 sm:px-4 md:px-0 lg:px-0'>
+    <div className='w-full h-auto bg-[#112240] text-center flex flex-col items-center justify-center text-[#f5f5f5] pt-30 gap-1 pb-30 sm:px-4 md:px-0 lg:px-0'>
 
     <div data-aos="fade-up" data-aos-delay="300">
     <section id='touch'>

@@ -28,7 +28,7 @@ function Navbar() {
           {/* Logo */}
           <div className="flex items-center gap-3 text-white font-bold">
             <img src="./iconF.png" className="w-10" alt="" />
-            <h3 className="text-lg">Portfolio</h3>
+            <h3 className="text-lg">Favour</h3>
           </div>
 
           {/* Desktop Menu */}

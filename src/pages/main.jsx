@@ -6,10 +6,9 @@ import Touch from './touch'
 import Footer from '../component/footer'
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { useState , useEffect } from 'react'
+import { useState , useEffect , useNavigate} from 'react'
 import Aos from 'aos'
 function Main() {
-
     useEffect(() => {
     AOS.init({
       duration: 1000, // Animation duration in milliseconds
@@ -18,9 +17,9 @@ function Main() {
   }, []);
 
   return (
-    <div className='flex w-full bg-[#0c1e39] h-screen text-center flex-col items-center justify-center text-[#f5f5f5] gap-1 pb-8 '>
+    <div className='flex w-full bg-[#0c1e39] pt-65 text-center  items-center justify-center text-[#f5f5f5] gap-20 pb-8 sm:gap-10 md:gap-20 lg:gap-20 flex-col md:flex-row lg:flex-row'>
     <div className=''>
-    <div className=''data-aos="fade-up" data-aos-delay="300">
+    <div className=''data-aos="fade-left" data-aos-delay="300">
         <div>
         <h1 className=" text-6xl font-bold text-sky-400 font-sans">
             Frontend Developer
@@ -32,19 +31,27 @@ function Main() {
 
         <div className='flex gap-5  justify-center'>
             <div>
-                <button className="px-6 py-3 bg-sky-400 text-white rounded-xl  shadow-lg hover:bg-sky-400 hover:shadow-xl hover:scale-105 transition duration-300">
-                View Project
-                </button>
+                <a href="#projects">
+                    <button className="px-6 py-3 bg-sky-400 text-white rounded-xl  shadow-lg hover:bg-sky-400 hover:shadow-xl hover:scale-105 transition duration-300">
+                        View Project
+                    </button>
+                </a>  
             </div>
             <div>
-                <button className='px-6 py-3 border-2 border-sky-400 text-[#f5f5f5] text-center rounded-lg hover:shadow-xl hover:scale-105 transition duration-300'>
-                    Get in Touch
-                </button>
+                <a href="#touch">
+                    <button className='px-6 py-3 border-2 border-sky-400 text-[#f5f5f5] text-center rounded-lg hover:shadow-xl hover:scale-105 transition duration-300'>
+                        Get in Touch
+                    </button>
+                </a>
+                
             </div>
         </div> 
         </div>
         </div> 
         
+        <div data-aos="fade-right" data-aos-delay="300">
+        <img src="./favour.png" alt="Profile" className='w-64 h-64 rounded-full object-cover border-4 border-sky-400' />
+        </div>
     </div>
   )
 }

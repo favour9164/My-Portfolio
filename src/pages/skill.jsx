@@ -12,7 +12,7 @@ function Skill() {
   }, []);
 
   return (
-    <div className='w-full h-auto bg-[#112240] text-center flex flex-col items-center justify-center text-[#f5f5f5] gap-1 pb-14'>
+    <div className='w-full h-auto pt-30 bg-[#112240] text-center flex flex-col items-center justify-center text-[#f5f5f5] gap-1 pb-14'>
     <div data-aos="fade-up" data-aos-delay="300">
       <section id='skill'>
         <div>
