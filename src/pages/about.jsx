@@ -13,18 +13,22 @@ function About() {
 
 
   return (
-    <div className='w-full h-auto pt-30 bg-[#0c1e39] text-center flex flex-col items-center justify-center text-[#f5f5f5] gap-1 pb-12 '>
-      <div className='w-lvh' data-aos="fade-right">
+    <div className='w-full h-auto pt-30 bg-[#0c1e39] text-center flex flex-col items-center justify-center text-[#f5f5f5] gap-1 pb-12'>
+      <div className='' data-aos="fade-up" data-aos-delay="300">
         <section id='about'>
           <div>
             <h2 className='text-3xl text-[#f5f5f5] pb-10 pt-30'>About Me</h2>
           </div>
         </section>
-      <div className="">
-        <p className="text-justify w-full md:w-full lg:w-full px-3">
-          I'm a passionate developer with expertise in building modern web applications. With a strong foundation in frontend technologies, I create seamless user experiences backed by robust, scalable systems. I love tackling challenging problems and continuously learning new technologies to stay at the forefront of web development.
+      <div className="text-justify max-w-2xl px-3 leading-relaxed">
+        <p className=" text-[#f5f5f5] sm:px-6 md:px-8 text-sm md:text-lg lg:text-lg font-medium">
+          I'm a passionate developer with expertise in building modern web applications.
+          With a strong foundation in frontend technologies, I create seamless user
+          experiences backed by robust, scalable systems. I love tackling challenging
+          problems and continuously learning new technologies to stay at the forefront
+          of web development.
         </p>
-    </div>
+      </div>
       </div>
     </div>
   )

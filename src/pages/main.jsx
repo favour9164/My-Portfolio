@@ -19,7 +19,7 @@ function Main() {
   return (
     <div className='flex w-full bg-[#0c1e39] pt-65 text-center  items-center justify-center text-[#f5f5f5] gap-20 pb-8 sm:gap-10 md:gap-20 lg:gap-20 flex-col md:flex-row lg:flex-row'>
     <div className=''>
-    <div className=''data-aos="fade-left" data-aos-delay="300">
+    <div className=''data-aos="fade-up" data-aos-delay="300">
         <div>
         <h1 className=" text-6xl font-bold text-sky-400 font-sans">
             Frontend Developer
@@ -29,10 +29,10 @@ function Main() {
         <h3>Building elegant solutions to complex problems with modern web technologies</h3>
         </div>
 
-        <div className='flex gap-5  justify-center'>
+        <div className='flex gap-5 justify-center'>
             <div>
                 <a href="#projects">
-                    <button className="px-6 py-3 bg-sky-400 text-white rounded-xl  shadow-lg hover:bg-sky-400 hover:shadow-xl hover:scale-105 transition duration-300">
+                    <button className="px-6 py-3 bg-sky-400 text-white rounded-xl shadow-lg hover:bg-sky-400 hover:shadow-xl hover:scale-105 transition duration-300">
                         View Project
                     </button>
                 </a>  
